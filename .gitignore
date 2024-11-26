@@ -1,0 +1,47 @@
+# Ignorer les fichiers de configuration spécifiques à l'IDE
+.idea/
+.vscode/
+
+# Ignorer les fichiers système spécifiques à macOS
+.DS_Store
+
+# Ignorer les répertoires de dépendances et modules
+/vendor/
+node_modules/
+
+# Ignorer les fichiers de cache et de logs
+composer.lock
+*.log
+
+# Ignorer les fichiers et répertoires de Docker
+docker-compose.override.yml
+docker-compose.override.yml.lock
+.docker/
+
+# Ignorer les fichiers de configuration PHP personnalisés
+config/php.ini
+
+# Ignorer les fichiers de build
+build/
+dist/
+
+# Ignorer les fichiers temporaires et de sauvegarde
+*.tmp
+*.bak
+
+# Ignorer les fichiers divers générés par l'éditeur
+*.swp
+*.swo
+
+# Ignorer les fichiers de test coverage
+coverage/
+*.cov
+.phpunit.result.cache
+
+# Ignorer les fichiers de cache générés par les outils
+.cache/
+.php_cs.cache
+
+# Ignorer les fichiers de déploiement
+.env
+deploy/
